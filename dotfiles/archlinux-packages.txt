@@ -1,0 +1,15 @@
+Package-Manager:
+	* nix
+	* home-manager
+
+Terminal
+	* zsh
+	* pfetch(pfetch-rs)
+	* alacritty
+
+Rust CLIs
+	* exa
+	* batcat
+	* procs
+	* gix
+	* zellij

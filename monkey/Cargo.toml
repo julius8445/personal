@@ -1,0 +1,16 @@
+[package]
+name = "monkey"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "monkey"
+path = "src/lib.rs"
+
+[[bin]]
+name = "monkey-repl"
+path = "src/bin/repl/main.rs"
+
+[dependencies]
+error-stack = "0.3.1"
+thiserror = "1.0.40"
